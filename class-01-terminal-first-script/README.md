@@ -15,16 +15,14 @@ Learn the Linux survival skills needed to run code:
 ## Start Here
 
 1. Read `LECTURE_NOTES.md`.
-2. Complete `LAB.md`.
-3. Use the PDF/DOCX handout if your instructor asks for it.
+2. Review `slides.pdf`.
+3. Complete `LAB.md`.
 4. Use the example scripts in `examples/` if you get stuck.
 
 ## Files
 
 - `LECTURE_NOTES.md`: class notes
+- `slides.pdf`: lecture slides
 - `LAB.md`: lab steps and Brightspace submission
 - `examples/hello.py`: tiny first script
 - `examples/system_info.py`: beginner system information script
-- `cst2415-linux-first-class-terminal-to-script.pdf`: slide PDF
-- `lab1-linux-terminal-to-first-script.pdf`: printable lab handout
-- `lab1-linux-terminal-to-first-script.docx`: editable lab handout

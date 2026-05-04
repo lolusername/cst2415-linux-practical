@@ -11,9 +11,10 @@ This class moves from command-line analysis to repeatable Python scripts.
 ## Start Here
 
 1. Read `LECTURE_NOTES.md`.
-2. Complete `LAB.md`.
-3. Use `data/tickets.csv`.
-4. Use the example scripts in `examples/`.
+2. Review `slides.pdf`.
+3. Complete `LAB.md`.
+4. Use `data/tickets.csv`.
+5. Use the example scripts in `examples/`.
 
 ## Why This Matters
 

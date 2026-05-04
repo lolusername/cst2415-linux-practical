@@ -20,9 +20,10 @@ This class connects classic Linux course topics to practical job skills:
 ## Start Here
 
 1. Read `LECTURE_NOTES.md`.
-2. Complete `LAB.md`.
-3. Use `data/tickets.csv` as the practice file.
-4. Compare your script with `examples/ticket_report.sh` if needed.
+2. Review `slides.pdf`.
+3. Complete `LAB.md`.
+4. Use `data/tickets.csv` as the practice file.
+5. Compare your script with `examples/ticket_report.sh` if needed.
 
 ## Why This Matters
 

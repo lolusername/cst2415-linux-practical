@@ -37,6 +37,7 @@ By the end, you should be able to say:
 Open the class folders in order. Each class folder has:
 
 - `README.md`: what the class is about
+- `slides.pdf`: lecture slides for students
 - `LECTURE_NOTES.md`: student-friendly lecture notes
 - `LAB.md`: the in-class lab and Brightspace submission directions
 - `examples/`, `data/`, `starter/`, or `final/`: files used during the lab

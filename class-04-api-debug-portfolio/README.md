@@ -11,9 +11,10 @@ This class connects Linux, Python, databases, APIs, debugging, and portfolio com
 ## Start Here
 
 1. Read `LECTURE_NOTES.md`.
-2. Complete `LAB.md`.
-3. Start with `starter/main.py`.
-4. Use `final/main.py` as a reference after trying the lab.
+2. Review `slides.pdf`.
+3. Complete `LAB.md`.
+4. Start with `starter/main.py`.
+5. Use `final/main.py` as a reference after trying the lab.
 
 ## Final Project
 
