@@ -1,45 +1,66 @@
-# CST2415 Linux Practical Boot Camp
+# CST2415 Practical Linux Boot Camp
 
-This repository contains student-facing materials for the practical Linux portion of CST2415.
+Student materials for the next four CST2415 class meetings.
 
-The focus is beginner-friendly: learn enough Linux to run scripts, inspect files, understand the terminal, and connect those skills to building software.
+This is a practical Linux mini boot camp for beginners. The goal is to learn enough Linux to run commands, write scripts, inspect files, do basic analysis, and run a small software project.
 
-## How To Use This Repo
+## Class Schedule
 
-Open the folders in order:
+1. `class-01-terminal-first-script/`  
+   Tuesday, May 5, 2026: Linux terminal, files, permissions, and first Python script
 
-1. `week-1/`
+2. `class-02-bash-text-analysis/`  
+   Thursday, May 7, 2026: Bash scripts, pipes, grep, find, and text analysis
 
-Each folder contains the lecture slides and lab handouts for that part of class.
+3. `class-03-python-files-sqlite/`  
+   Tuesday, May 12, 2026: Python scripts, CSV files, SQLite, and persistent data
 
-## What To Submit
+4. `class-04-api-debug-portfolio/`  
+   Thursday, May 14, 2026: FastAPI, debugging, API testing, and project explanation
 
-Submit work in Brightspace, not on GitHub.
+## What This Course Is About
 
-For labs, submit the evidence requested in the lab handout. This will usually include:
+Linux is used heavily for software development, cloud servers, cybersecurity labs, data work, DevOps, QA automation, and AI/backend systems. This boot camp is not trying to make you an advanced Linux administrator in two weeks. It is trying to give you practical command-line confidence and a project story you can explain.
 
-- terminal commands or screenshots
+By the end, you should be able to say:
+
+- I can use a Linux terminal.
+- I can navigate files and directories.
+- I can inspect permissions and run scripts.
+- I can use Bash tools to search and summarize text.
+- I can use Python on Linux to process files.
+- I can store simple data in SQLite.
+- I can run a small FastAPI backend and test its endpoints.
+
+## How To Use The Folders
+
+Open the class folders in order. Each class folder has:
+
+- `README.md`: what the class is about
+- `LECTURE_NOTES.md`: student-friendly lecture notes
+- `LAB.md`: the in-class lab and Brightspace submission directions
+- `examples/`, `data/`, `starter/`, or `final/`: files used during the lab
+
+## Brightspace Submission
+
+Submit work in Brightspace when your instructor opens a submission folder.
+
+For each lab, submit the evidence requested in `LAB.md`. This usually includes:
+
+- commands you ran
+- screenshots or copied terminal output
 - short written answers
-- Python code or output
-- reflection questions
+- script or code files
+- reflection answers
 
-## Current Topic
-
-Week 1 starts with:
-
-- what Linux is
-- how the terminal works
-- basic file and folder commands
-- permissions
-- running a first Python script
-- reading basic system information
+If your computer or classroom environment cannot install a tool, submit honest evidence from the instructor demo, browser environment, or written analysis option.
 
 ## Environment
 
-Your instructor may demonstrate Linux using Fedora, a Fedora command line, Docker, DistroSea, or another approved classroom environment.
+The instructor may demonstrate using Fedora, Docker, DistroSea, a virtual machine, or another Linux environment.
 
-If your personal computer cannot install the same tools, follow the classroom instructions and submit the required Brightspace evidence from the environment available to you.
+Students should use the environment provided in class. If installation is blocked, use the alternate instructions in the lab.
 
-## Important Note
+## Repo Rule
 
-This repository intentionally contains only student-facing material. Instructor notes, answer keys, and generation files are not included.
+This repository contains student-facing materials only. Instructor notes, answer keys, private planning files, and generation files are not included.

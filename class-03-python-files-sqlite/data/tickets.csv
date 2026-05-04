@@ -1,0 +1,11 @@
+id,student_name,category,priority,status,created_date,issue
+1,Ari,password,normal,open,2026-05-01,password reset needed
+2,Blake,network,high,open,2026-05-01,wifi drops during class
+3,Casey,software,normal,closed,2026-05-02,python install question
+4,Drew,hardware,high,open,2026-05-02,laptop keyboard not working
+5,Eli,access,normal,open,2026-05-03,cannot access Brightspace
+6,Finley,network,normal,closed,2026-05-03,ethernet cable issue
+7,Gray,password,high,open,2026-05-04,account locked after attempts
+8,Harper,software,normal,open,2026-05-04,FastAPI import error
+9,Indigo,access,normal,closed,2026-05-05,lab folder permission issue
+10,Jules,network,high,open,2026-05-05,DNS lookup failing
