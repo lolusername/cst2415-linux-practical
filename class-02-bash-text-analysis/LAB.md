@@ -1,6 +1,6 @@
 # Lab 02: Bash Ticket Report
 
-Submit your work in Brightspace if your instructor opens the Lab 02 submission folder.
+This is an ungraded in-class skill-building lab. Save your commands, output, screenshots, script, and answers for your own notes.
 
 ## Part 1: Set Up
 
@@ -132,9 +132,9 @@ Then answer:
 1. What did `find` locate?
 2. Why is `find` useful on a Linux system?
 
-## Brightspace Submission
+## Practice Evidence
 
-Submit:
+For your own notes, collect:
 
 - output from `head tickets.csv`
 - output from the category-count pipeline

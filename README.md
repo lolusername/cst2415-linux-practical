@@ -1,8 +1,20 @@
 # CST2415 Practical Linux Boot Camp
 
-Student materials for the next four CST2415 class meetings.
+Student materials for the remaining CST2415 class meetings.
 
-This is a practical Linux mini boot camp for beginners. The goal is to learn enough Linux to run commands, write scripts, inspect files, do basic analysis, and run a small software project.
+Because of the logistical difficulty and disruption in the course, the remaining class time is being used as a practical Linux mini boot camp. The goal is to make the rest of the course useful, beginner-friendly, and focused on skills that connect to software engineering and data analysis.
+
+The focus is practical Linux: using the terminal, working with files, writing scripts, inspecting data, using Python, trying SQLite, and understanding how a small backend application runs.
+
+## Course And Final Exam Update
+
+Everyone will receive 100% on the final exam automatically.
+
+Everyone will also be marked present for every class meeting.
+
+The remaining meetings will include lectures and in-class skill-building labs. These labs are meant to help students practice and remember practical skills. They are not graded assignments.
+
+You are still encouraged to participate, follow along, and save evidence of your work for your own notes and future portfolio practice.
 
 ## Class Schedule
 
@@ -39,14 +51,14 @@ Open the class folders in order. Each class folder has:
 - `README.md`: what the class is about
 - `slides.pdf`: lecture slides for students
 - `LECTURE_NOTES.md`: student-friendly lecture notes
-- `LAB.md`: the in-class lab and Brightspace submission directions
+- `LAB.md`: the ungraded in-class skill-building lab
 - `examples/`, `data/`, `starter/`, or `final/`: files used during the lab
 
-## Brightspace Submission
+## In-Class Skill Building
 
-Submit work in Brightspace when your instructor opens a submission folder.
+The labs in this repo are for in-class practice.
 
-For each lab, submit the evidence requested in `LAB.md`. This usually includes:
+The lab files may ask you to collect:
 
 - commands you ran
 - screenshots or copied terminal output
@@ -54,7 +66,9 @@ For each lab, submit the evidence requested in `LAB.md`. This usually includes:
 - script or code files
 - reflection answers
 
-If your computer or classroom environment cannot install a tool, submit honest evidence from the instructor demo, browser environment, or written analysis option.
+These activities are meant to help you learn and remember the skills. They are not graded assignments.
+
+If your computer or classroom environment cannot install a tool, follow the instructor demo, use the written analysis option, or use the environment provided in class.
 
 ## Environment
 

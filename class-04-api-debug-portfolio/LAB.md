@@ -1,6 +1,6 @@
 # Lab 04: Campus Helpdesk Ticket Tracker API
 
-Submit your work in Brightspace if your instructor opens the Lab 04 submission folder.
+This is an ungraded in-class skill-building lab. Save your commands, output, screenshots, code, and answers for your own notes.
 
 ## Part 1: Set Up
 
@@ -131,9 +131,9 @@ Read `starter/main.py` and `final/main.py`, watch the instructor demo, then answ
 4. What is one error that could happen when starting the app?
 5. How would you explain this project to an employer in 3 sentences?
 
-## Brightspace Submission
+## Practice Evidence
 
-Submit:
+For your own notes, collect:
 
 - screenshot or copied output of `/docs`
 - output from `GET /health`

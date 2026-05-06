@@ -1,6 +1,6 @@
 # Lab 01: Terminal Basics And First Python Script
 
-Submit your work in Brightspace if your instructor opens the Lab 01 submission folder.
+This is an ungraded in-class skill-building lab. Save your commands, output, screenshots, and answers for your own notes.
 
 ## Part 1: Create Your Workspace
 
@@ -130,9 +130,9 @@ Then answer:
 2. What machine type did Python report?
 3. Why might a developer need to check this information?
 
-## Part 5: Brightspace Submission
+## Part 5: Practice Evidence
 
-Submit one document, screenshot set, or text file with:
+For your own notes, collect one document, screenshot set, or text file with:
 
 - output from `pwd`
 - output from `ls -la`

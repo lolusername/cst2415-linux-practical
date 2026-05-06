@@ -1,6 +1,6 @@
 # Lab 03: Load Tickets Into SQLite
 
-Submit your work in Brightspace if your instructor opens the Lab 03 submission folder.
+This is an ungraded in-class skill-building lab. Save your commands, output, screenshots, scripts, and answers for your own notes.
 
 ## Part 1: Set Up
 
@@ -160,9 +160,9 @@ SELECT category, COUNT(*) FROM tickets GROUP BY category;
 
 If `sqlite3` is not installed, skip this part and use your Python output.
 
-## Brightspace Submission
+## Practice Evidence
 
-Submit:
+For your own notes, collect:
 
 - output from `python3 --version`
 - output from `ls -l` showing `tickets.db`
