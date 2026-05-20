@@ -27,38 +27,15 @@ python -m pip install fastapi uvicorn
 
 If installation fails, skip to Part 7.
 
-### Fedora Docker CLI Note
+### Fedora VM Note
 
-You do not need a Linux GUI to run this app. FastAPI runs from the command line.
-
-If you are using a bare Fedora Docker container, Python may not be installed yet. Install the basics first:
+If Python or curl is missing in your Fedora VM, install the basics first:
 
 ```bash
-dnf -y install python3 python3-pip curl nano
+sudo dnf -y install python3 python3-pip curl nano
 ```
 
 Then continue with the virtual environment commands above.
-
-If you want to open `/docs` in a browser on your host computer while the app runs inside Docker, the container must publish port `8000`, and Uvicorn must listen on `0.0.0.0`.
-
-Example Docker start command from the repo root:
-
-```bash
-docker run --rm -it -p 8000:8000 \
-  -v "$PWD":/work \
-  -w /work/class-04-api-debug-portfolio \
-  fedora:rawhide bash
-```
-
-Inside the container:
-
-```bash
-dnf -y install python3 python3-pip curl nano
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-```
 
 ## Part 2: Create The App
 
@@ -74,12 +51,6 @@ Run:
 
 ```bash
 uvicorn main:app --reload
-```
-
-If you are inside Docker and want to open the app from a browser outside the container, run:
-
-```bash
-uvicorn main:app --host 0.0.0.0 --reload
 ```
 
 Open:
@@ -135,12 +106,6 @@ Stop the server with `Ctrl + C`, then restart:
 uvicorn main:app --reload
 ```
 
-If you are inside Docker and testing from the host browser, use:
-
-```bash
-uvicorn main:app --host 0.0.0.0 --reload
-```
-
 Create a ticket, stop the server, restart it, and check that the ticket is still there.
 
 Important: the SQLite version starts with an empty ticket list. If `GET /tickets` returns `[]`, that is not broken. Create a ticket with `POST /tickets`, then check `GET /tickets` again.
@@ -187,7 +152,7 @@ Python is not installed in the environment.
 On Fedora:
 
 ```bash
-dnf -y install python3 python3-pip
+sudo dnf -y install python3 python3-pip
 ```
 
 ### `curl: command not found`
@@ -195,7 +160,7 @@ dnf -y install python3 python3-pip
 Install curl:
 
 ```bash
-dnf -y install curl
+sudo dnf -y install curl
 ```
 
 ### Browser Cannot Open `/docs`
@@ -206,10 +171,7 @@ If the app is running directly on your machine, open:
 http://127.0.0.1:8000/docs
 ```
 
-If the app is running inside Docker, make sure:
-
-1. the container was started with `-p 8000:8000`
-2. Uvicorn was started with `--host 0.0.0.0`
+In a Fedora VM with a desktop, open that address in the Fedora VM browser. If the browser is on your Mac or host machine instead of inside the VM, ask your instructor before changing network settings.
 
 ### `GET /tickets` Returns `[]`
 
